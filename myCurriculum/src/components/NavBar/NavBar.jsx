@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <div class="header">
       <div class="header__logo">
-        <img id="profile-pic" src="../../../public/profile_pic.jpg"></img>
+        <img id="profile-pic" src="../../../profile_pic.jpg"></img>
       </div>
       <nav class="navbar">
         <ul class="navbar__menu">

@@ -10,6 +10,8 @@ body {
 
 .dark {
   background: #110f16;
+  display: flex;
+  justify-content: center;
 }
 
 .light {
@@ -39,6 +41,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   color: #ffffff;
+  max-width: 50vw;
 }
 .postcard.dark {
   background-color: #18151f;
