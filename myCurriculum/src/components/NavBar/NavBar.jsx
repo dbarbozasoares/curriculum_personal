@@ -32,7 +32,7 @@ const NavBar = () => {
             </a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">
+            <a href="#graduation-id" class="navbar__link">
               <i data-feather="folder"></i>
               <span>Graduation</span>
             </a>

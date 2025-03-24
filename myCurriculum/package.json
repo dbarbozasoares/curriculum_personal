@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "feather-icons": "^4.29.2",
+    "mycurriculum": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-native-progress-bar-classic": "^1.2.1",
     "react-router-dom": "^7.4.0"
   },
   "devDependencies": {

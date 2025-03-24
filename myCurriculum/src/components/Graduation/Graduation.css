@@ -1,0 +1,135 @@
+body {
+    background-color: #eee
+}
+
+.course-completed{
+    background-color: lightgreen;
+    font-weight: bolder;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    max-height: 3vh;
+    min-width: 2em;
+    align-items: center;
+}
+
+/* Course Logos Section */
+.course-logos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .course-logo {
+    width: 3.2em;
+    height: 3.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Specific logos */
+  .course-logo.cpp {
+    background-image: url('https://banner2.cleanpng.com/20180425/wfw/ave8hjevi.webp');
+  }
+  
+  .course-logo.react {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg');
+  }
+  
+  .course-logo.js {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCB6oGxwdIZ0P6jiV43wVQziTuzwN0Jm5b6Q&s');
+  }
+  
+  .course-logo.sql {
+    background-image: url('https://gimgs2.nohat.cc/thumb/f/640/sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo-png--compngwingzoupl.jpg');
+  }
+
+  .course-logo.mongo{
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp");
+  }
+
+  .course-logo.api{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/826/844/non_2x/api-icon-in-flat-style-software-integration-illustration-on-isolated-background-algorithm-programming-sign-business-concept-vector.jpg");
+  }
+  
+  .course-logo.cpp, .course-logo.react, .course-logo.js, .course-logo.sql, .course-logo.mongo, .course-logo.api {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+.pending-graduation{
+    background-color: orange;
+    font-weight: bolder;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    max-height: 3vh;
+    min-width: 2em;
+    align-items: center;
+}
+.logo-graduation{
+    max-width: 10vw;
+    max-height: 10vh;
+    padding-right: 7px;
+    object-fit: contain;
+    max-width: 100%;
+}
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: red
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
